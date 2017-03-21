@@ -3,7 +3,6 @@ import { Team, TeamService, TEAMS } from '../team.service';
 import { TeamDetailComponent } from '../team-detail/team-detail.component'
 
 @Component( {
-  selector: 'teams',
   templateUrl: './teams.component.html',
   styleUrls: ['./teams.component.css'],
   providers: [TeamService]

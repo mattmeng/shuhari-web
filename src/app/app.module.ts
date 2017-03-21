@@ -9,7 +9,7 @@ import { TeamDetailComponent } from './team-detail/team-detail.component';
 import { TeamsComponent } from './teams/teams.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 
-@NgModule({
+@NgModule( {
   declarations: [
     AppComponent,
     TeamDetailComponent,
@@ -38,5 +38,5 @@ import { DashboardComponent } from './dashboard/dashboard.component';
   ],
   providers: [],
   bootstrap: [AppComponent]
-})
+} )
 export class AppModule { }

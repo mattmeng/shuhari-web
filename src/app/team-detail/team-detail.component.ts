@@ -2,7 +2,7 @@ import { Component, Input } from '@angular/core';
 import { Team } from '../team.service';
 
 @Component( {
-  selector: 'team-detail',
+  selector: 'shuhari-team-detail',
   templateUrl: './team-detail.component.html',
   styleUrls: ['./team-detail.component.css']
 } )
