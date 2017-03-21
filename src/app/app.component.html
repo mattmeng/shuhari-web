@@ -1,13 +1,6 @@
-<h1>
-  {{title}}
-</h1>
-
-<team-detail [team]="selected_team"></team-detail>
-
-<h2>Teams</h2>
-<ul class="teams">
-  <li *ngFor="let team of teams" (click)="onSelect(team)" [class.selected]="team === selected_team"
->
-    <span class="badge">{{team.id}}</span> {{team.name}}
-  </li>
-</ul>
+<h1>{{title}}</h1>
+<nav>
+  <a routerLink="/dashboard">Dashboard</a>
+  <a routerLink="/teams">Teams</a>
+</nav>
+<router-outlet></router-outlet>
